@@ -15,7 +15,7 @@ export default function InitialPage() {
   const [initialPost, setInitialPost] = useState([]);
   const [loaded, setLoaded] = useState(false);
 
-  document.title = 'Blog';
+  document.title = 'Veritas';
 
   useEffect(() => {
     async function getPosts() {

@@ -13,7 +13,7 @@ function Post(props) {
         formatDate = new Intl.DateTimeFormat('pt-BR').format(new Date(data.date));
     };
 
-    document.title = 'Blog - ' + data.title;
+    document.title = 'Veritas - ' + data.title;
 
     return (
         <div className="full-post-container">
