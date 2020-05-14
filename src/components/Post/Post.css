@@ -59,6 +59,7 @@
 }
 
 .full-post-container .content p.paragraph-content {
+    word-wrap: wrap;
     letter-spacing: 1px;
     font-weight: 500;
     font-family: 'Playfair Display', serif;
