@@ -43,7 +43,8 @@ function NewPost() {
       thumbPath: thumb,
       author,
       idAuthor,
-      category
+      category,
+      archived
     };
 
     await api.post('post', data)
