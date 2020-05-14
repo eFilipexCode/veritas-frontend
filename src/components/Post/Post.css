@@ -54,6 +54,7 @@
     text-indent: 30px;
     width: 70%;
     word-spacing: 2px;
+    word-wrap: wrap;
     line-height: 45px;
 }
 
