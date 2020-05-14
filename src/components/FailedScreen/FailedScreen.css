@@ -1,0 +1,22 @@
+.failed-screen-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    font-family: 'Playfair Display', serif;
+}
+
+.failed-screen-container a {
+    color: #fff;
+    padding: 10px;
+    background-color: #000;
+    text-decoration: none;
+    margin: 30px 0px;
+}
+
+.failed-screen-container img {
+    width: 200px;
+    filter: grayscale(1);
+}

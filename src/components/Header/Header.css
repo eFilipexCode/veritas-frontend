@@ -1,0 +1,42 @@
+.header-container {
+    height: 50px;
+    background-color: #151515;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.header-container h1 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    margin: 10px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.header-container .search-header {
+    height: 100%;
+    display: flex;
+}
+
+.header-container .search-header input {
+    height: 100%;
+    background-color: #313131;
+    border: none;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.header-container .search-header button {
+    height: 100%;
+    width: 60px;
+    background-color: #313131;
+    border: none;
+    cursor: pointer;
+}
+
+.header-container .search-header button:hover {
+    background-color: #5d5d5d;
+}

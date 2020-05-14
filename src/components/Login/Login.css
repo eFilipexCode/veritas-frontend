@@ -1,0 +1,31 @@
+.login-container {
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container .input-group form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group form input {
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 10px 0px;
+}
+
+.input-group form button {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #151515;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+}

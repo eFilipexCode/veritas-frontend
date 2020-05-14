@@ -1,0 +1,94 @@
+.post-container-box {
+    width: 300px;
+    transform: scale(0.5);
+    height: 230px;
+    margin: 30px 21px;
+    border: 1px solid #000; 
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    top: 0px;
+    transition: all 0.3s ease;
+}
+
+.post-container-box:hover {
+    box-shadow: 0px 0px 13px 2px #000;
+    top: -5px;
+}
+
+.post-container-box div {
+    overflow: hidden;
+}
+
+.post-container-box .category {
+    align-self: flex-start;
+    position: absolute;
+    top: 0px;
+    font-family: 'Merriweather', serif;
+    background-color: #151515;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 3px;
+    left: 0px;
+    z-index: 5;
+}
+.post-container-box .thumb-box {
+    width: 100%;
+    align-self: center;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.post-container-box .thumb-box .color-overlay-thumb {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.561);
+}
+
+.post-container-box .thumb-box img {
+    width: 100%;
+}
+
+.post-container-box .info-post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.post-container-box .info-post h1 {
+    width: 295px;
+    margin: 5px 0px 0px 0px;
+    font-size: 1em;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+
+.post-container-box .info-post p.info-desc { 
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin: 0px 0px 5px 0px;
+}
+
+.post-container-box .info-post p.info-content {
+    width: 295px;
+    font-size: 1.2em;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 800px) {
+    .post-container-box {
+        width: 90%;
+        margin: 15px;
+    }   
+}

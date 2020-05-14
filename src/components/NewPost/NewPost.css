@@ -1,0 +1,161 @@
+.new-post-container {
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+.new-post-container .input-group form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group .title-thumb {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input-group .title-thumb .thumb-controller {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-thumb .thumb-controller input.thumb-path {
+    position: absolute;
+    z-index: 10;
+    padding: 4px;
+    width: 100%;
+    background-color: #fff5;
+    align-self: flex-start;
+}
+
+.thumb-controller img {
+    width: 100%;
+}
+
+.new-post-container .input-group input, .input-group textarea.textarea-content {
+    padding: 20px;
+    border: none;
+    font-family: inherit;
+    font-size: 1em;
+    resize: vertical;
+}
+
+.new-post-container .input-group input.input-title {
+    font-size: 2.5em;
+    z-index: 2;
+    background-color: transparent;
+    color: #eee;
+}
+
+.new-post-container .input-group input.input-description {
+    font-size: 2em;
+}
+
+.new-post-container .input-group .textarea-container {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-post-container .input-group .textarea-container .textarea-options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    height: 50px;
+    border-bottom: #ccc;
+    background-color: #eee;
+}
+
+.new-post-container .input-group .textarea-container button {
+    margin: 0px;
+    width: 40px;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.new-post-container .input-group textarea.textarea-content {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.target-container {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 30px;
+    word-spacing: 2px;
+    line-height: 30px;
+    background-color: #eee;
+    min-height: 400px;
+}
+
+.target-container .target {
+    text-align: justify;
+    word-wrap: break-word;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.input-group form button {
+    margin: 20px;
+    padding: 15px;
+}
+
+.input-group form button:disabled {
+    background-color: #eee;
+}
+
+.login-step {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    padding: 30px;
+}
+
+.login-step input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.login-step button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #000;
+    color: #eee;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .new-post-container .input-group form {
+        width: 100%;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    .new-post-container .input-group input.input-title {
+        width: 50%;
+    }
+}

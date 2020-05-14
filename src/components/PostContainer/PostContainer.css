@@ -1,0 +1,71 @@
+.post-container {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #000;
+    margin: 6px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    transform-origin: center;
+    transform-box: fill-box;
+    top: 0px; 
+}
+
+.post-container:hover {
+    top: -5px;
+    box-shadow: 0px 0px 15px 3px rgb(71, 71, 71);
+}
+
+.post-container:active {
+    transform: scale(0.95);
+}
+
+.post-container .thumb {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-container .thumb img {
+    width: 100%;
+}
+
+.post-container .data-container {
+    flex: 1;
+    max-width: 70%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.post-container .data-container p.desc {
+    font-weight: 900;
+}
+
+.post-container .data-container .content {
+    margin: 10px 0px;
+    font-size: 1.2em;
+    width: 400px;
+}
+
+.post-container .data-container .content p {
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media (max-width: 1170px) {
+    .post-container {
+        width: 100%;
+    }
+}

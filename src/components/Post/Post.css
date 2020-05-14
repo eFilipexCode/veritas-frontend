@@ -1,0 +1,89 @@
+.full-post-container {
+    width: 100% ;
+    position: relative;
+}
+
+.full-post-container .info-post {
+    margin: 10px 0px;
+    width: 70%;
+    height: 250px;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid #000;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.full-post-container .info-post .post-thumb {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    background-color: #0005;
+}
+
+.color-overlay {
+    background-color: #0006;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.full-post-container .info-post .post-thumb img {
+    width: 100%;
+}
+
+.full-post-container .info-post h1.title-post {
+    font-size: 3.5em;
+    margin: 10px;
+}
+
+.full-post-container .info-post p {
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.full-post-container .content {
+    margin: 10px 0px;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 30px;
+    width: 70%;
+    word-spacing: 2px;
+    line-height: 45px;
+}
+
+.full-post-container .content p.paragraph-content {
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+}
+
+.full-post-container .pos-post {
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    padding: 10px 0px;
+    color: rgb(70, 69, 69);
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+@media (max-width: 950px) {
+    .full-post-container .info-post {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    .full-post-container .content {
+        padding: 30px;
+        width: 100%;
+    }
+}

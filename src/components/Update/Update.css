@@ -1,0 +1,10 @@
+.update-container {
+    width: 100%;
+}
+
+.update-container .posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

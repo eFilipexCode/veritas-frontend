@@ -1,0 +1,68 @@
+.initial-container .main-posts .banner-right {
+    width: 450px;
+    height: 100%;
+    overflow: hidden;
+    margin: 10px 0px 10px 5px;
+    background-color: rgba(0, 0, 0, 0.712);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.initial-container .main-posts .banner-right img {
+    z-index: -1;
+    position: relative;
+    width: 110%;
+    transition: all 0.3s;
+}
+
+.initial-container .main-posts .banner-right:hover {
+    background-color: rgba(0, 0, 0, 0.787);
+}
+
+.initial-container .main-posts .banner-right:hover img {
+    width: 130%;
+}
+
+.initial-container .main-posts .banner-right .pray-container {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Courgette', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+    cursor: default;
+}
+
+.initial-container .main-posts .banner-right .pray-container .pray::selection {
+    background-color: transparent;
+}
+
+.banner-right .pray-container .pray {
+    width: 100%;
+    font-size: 0.8em;
+    line-height: 20px;
+    margin: 20px 0px;
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+
+.pray::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 1170px) {
+    .initial-container .main-posts .banner-right {
+        width: 100%;
+        height: 300px;
+        margin: 10px 0px;
+    }
+}
